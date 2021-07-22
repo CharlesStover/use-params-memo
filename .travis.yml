@@ -5,17 +5,17 @@ branches:
 cache:
   npm: false
   directories:
-    - .yarn/cache
+  - ".yarn/cache"
 deploy:
   email: npmjs@charlesstover.com
   provider: npm
   skip_cleanup: true
   api_key:
-    secure:
+    secure: ld9cHc68yI0aXU97t231eQWXHSCKLl2dRe4MQ6dXJuveXcfFxsNPu24+StOd10ShUTFfUWG9+Iozx9s+G154Mgwfz7XyqfubtKiXLAUtHnBDffOX+HM/KOsgfnZd+l613Y4L3VYIsHJtsSNlrrhmy4qw7mLCHAtfiAIm+KDkzh1rFMa8TE+C13aDC2A66vJ52gJ4KmCtoF8B2tPAm+sYBMVRV9wOlWsUCqKyCrWai2M1nI5IU+LOTF8o0PQdA9A6AnNxerL2jVHGxRLrGJsbjX+sEETwxHcSeKPQja4kOVdK3jxCL19u45pRWf5MO9fAfUebflLTlCBmLN1ltrONQu90KvYvCxd/zTk4rV0chQ2BDA/hEUJh54+HzK9ALLDjjaYxbRonU8it8u7g+u4AisE6F2+9JRNmIU/XPtjVlXdfRsh4XoOxDmErt7aWHTfGen5FqDPV13lSeU6JrGmhqlQbA/kQ8zx7+s5Q99j60SsVaM/dsxhfKgo01/WpTdTIDzMVLiE8VkSp3G/nmFU5nC2waHVt3uoHH3/GwUMCs2hGEAYaYI23QOeVDR+r9udBVXYvca5eMeZINxkQO8cvJI2w82qLo7zxHh/OdtgA2JtbJ0mmbP5227YJbi6/I7c+K1NNF1QlEjDRD2Pp9SBo4AFy5+Bc57t3FEiE4sHEvgU=
   on:
     branch: main
 install:
-  - yarn
+- yarn
 script:
-  - yarn build
-  - yarn test
+- yarn build
+- yarn test

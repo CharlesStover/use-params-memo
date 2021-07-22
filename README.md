@@ -37,4 +37,5 @@ export default function useOurSum({ mine, yours }) {
 
 - `yarn set version latest`
 - `yarn up * @*/*`
-- `yarn dlx @yarnpkg/sdks vscode`
+- `yarn add --dev @yarnpkg/sdks`
+- `yarn sdks vscode`
